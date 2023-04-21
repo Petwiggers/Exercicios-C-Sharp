@@ -1,0 +1,15 @@
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\bin\Debug\net7.0\Exercicios-03-ao-10.exe
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\bin\Debug\net7.0\Exercicios-03-ao-10.deps.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\bin\Debug\net7.0\Exercicios-03-ao-10.runtimeconfig.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\bin\Debug\net7.0\Exercicios-03-ao-10.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\bin\Debug\net7.0\Exercicios-03-ao-10.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.csproj.AssemblyReference.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.AssemblyInfoInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.AssemblyInfo.cs
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\refint\Exercicios-03-ao-10.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\Exercicios-03-ao-10.genruntimeconfig.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 02\Exercicios-03-ao-10\obj\Debug\net7.0\ref\Exercicios-03-ao-10.dll
