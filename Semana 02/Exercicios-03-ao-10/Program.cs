@@ -17,36 +17,62 @@ internal class Program
     carros.Add(carro2);
     carros.Add(carro3);
 
+    Menu();
+    void Menu()
+    {
+      while (0 == 0)
+      {
+        System.Console.WriteLine("\nBem vindo a lista de Carros !!");
+        System.Console.WriteLine("1-Cadastrar Novo Carro");
+        System.Console.WriteLine("2-Listar Carros");
+        System.Console.WriteLine("3-Sair");
+        System.Console.Write("\nPor favor Digite a Opção desejada:");
+        char opcao = char.Parse(Console.ReadLine());
+        switch (opcao)
+        {
+          case '1':
+            CadastrarCarro();
+            break;
+          case '2':
+            ListarCarros();
+            break;
+          case '3':
+            return;
+          default:
+            System.Console.WriteLine("Opção Inválida! ");
+            break;
+        }
+      }
+    }
 
-    ListarCarros();
-    // void CadastrarCarro()
-    // {
+    void CadastrarCarro()
+    {
 
-    //   Carro carro = new Carro();
-    //   System.Console.WriteLine("Digite as informações do carro!");
-    //   System.Console.Write("\nMarca: ");
-    //   carro.Marca = Console.ReadLine();
-    //   System.Console.Write("Modelo: ");
-    //   carro.Modelo = Console.ReadLine();
-    //   System.Console.WriteLine("Ano:");
-    //   carro.Ano = Console.ReadLine();
-    //   System.Console.WriteLine("Placa:");
-    //   carro.Placa = Console.ReadLine();
-    //   System.Console.WriteLine("Cor: ");
-    //   carro.Cor = Console.ReadLine();
+      Carro carro = new Carro();
+      System.Console.WriteLine("Digite as informações do carro!");
+      System.Console.Write("\nMarca: ");
+      carro.Marca = Console.ReadLine();
+      System.Console.Write("Modelo: ");
+      carro.Modelo = Console.ReadLine();
+      System.Console.Write("Ano:");
+      carro.Ano = Console.ReadLine();
+      System.Console.Write("Placa:");
+      carro.Placa = Console.ReadLine();
+      System.Console.Write("Cor: ");
+      carro.Cor = Console.ReadLine();
 
-    //   Proprietario proprietario = new Proprietario();
-    //   System.Console.WriteLine("Digite as informações do proprietário !! ");
-    //   System.Console.Write("\nNome : ");
-    //   proprietario.Nome = Console.ReadLine();
-    //   System.Console.Write("Cpf: ");
-    //   proprietario.Cpf = Console.ReadLine();
-    //   System.Console.Write("Telefone: ");
-    //   proprietario.Telefone = Console.ReadLine();
+      Proprietario proprietario = new Proprietario();
+      System.Console.WriteLine("Digite as informações do proprietário !! ");
+      System.Console.Write("\nNome : ");
+      proprietario.Nome = Console.ReadLine();
+      System.Console.Write("Cpf: ");
+      proprietario.Cpf = Console.ReadLine();
+      System.Console.Write("Telefone: ");
+      proprietario.Telefone = Console.ReadLine();
 
-    //   carro.Proprietario = proprietario;
-    //   carros.Add(carro);
-    // }
+      carro.Proprietario = proprietario;
+      carros.Add(carro);
+    }
 
     void ListarCarros()
     {
