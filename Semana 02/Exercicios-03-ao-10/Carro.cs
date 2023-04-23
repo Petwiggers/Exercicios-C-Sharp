@@ -23,5 +23,7 @@ namespace Exercicios_03_ao_10
       Cor = cor;
       Proprietario = proprietario;
     }
+
+    public Carro() { }
   }
 }
