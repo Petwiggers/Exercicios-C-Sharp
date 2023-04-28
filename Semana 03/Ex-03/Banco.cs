@@ -3,24 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Ex_02
+namespace Ex_03
 {
-  public class ContaBancaria
+  public class Banco
   {
-    private int NumeroConta;
-    private double Saldo;
+    private double _saldo;
 
-    public ContaBancaria()
-    {
-      Saldo = 0;
-      NumeroConta = new Random().Next();
-    }
-
-    public void Deposita(double valor)
+    public void Depositar(double valor)
     {
       if (valor > 0)
       {
-        Saldo += valor;
+        _saldo += valor;
         Console.WriteLine($"Você depositou R${valor} na sua conta !");
       }
       else
@@ -28,12 +21,11 @@ namespace Ex_02
         Console.WriteLine("Você só pode depositar um valor maior que 0 !");
       }
     }
-
     public void Sacar(double valor)
     {
-      if ((valor <= Saldo) && (valor > 0))
+      if ((valor <= _saldo) && (valor > 0))
       {
-        Saldo -= valor;
+        _saldo -= valor;
         Console.WriteLine($"Você sacou R${valor} da sua conta !");
       }
       else
@@ -42,9 +34,9 @@ namespace Ex_02
       }
     }
 
-    public void getSaldo()
+    public string ToString()
     {
-      System.Console.WriteLine($"Você possui um Saldo de: R${Saldo}");
+      return $"Saldo: {_saldo}";
     }
   }
 }
