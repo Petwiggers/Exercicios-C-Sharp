@@ -25,9 +25,9 @@ namespace Ex_03
           $"{_cliente.ToString()}");
     }
 
-    public void ToString()
+    public override string ToString()
     {
-      System.Console.WriteLine($"Numero da Conta: {_numeroConta}\n" +
+      return ($"Numero da Conta: {_numeroConta}\n" +
               $"{_cliente.ToString()}\n" +
               $"{_banco.ToString()}");
 

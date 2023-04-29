@@ -16,7 +16,7 @@ namespace Ex_03
       _cpf = cpf;
     }
 
-    public String ToString()
+    public override String ToString()
     {
       return $"Nome: {_nome}\nCpf: {_cpf}";
     }

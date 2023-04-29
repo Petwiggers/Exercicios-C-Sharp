@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Ex_03
+namespace Ex_04
 {
-  public class Banco
+  public class ContaBancaria
   {
     private double _saldo;
 
+    public double Saldo2
+    {
+      get { return _saldo; }
+      private set { _saldo = value; }
+    }
     public void Depositar(double valor)
     {
       if (valor > 0)
       {
-        _saldo += valor;
+        Saldo2 += valor;
         Console.WriteLine($"Você depositou R${valor} na sua conta !");
       }
       else
@@ -21,22 +26,19 @@ namespace Ex_03
         Console.WriteLine("Você só pode depositar um valor maior que 0 !");
       }
     }
-    public void Sacar(double valor)
+    public bool Sacar(double valor)
     {
       if ((valor <= _saldo) && (valor > 0))
       {
-        _saldo -= valor;
+        Saldo2 -= valor;
         Console.WriteLine($"Você sacou R${valor} da sua conta !");
+        return true;
       }
       else
       {
         Console.WriteLine("Valor Inválido!");
+        return false;
       }
-    }
-
-    public override string ToString()
-    {
-      return $"Saldo: {_saldo}";
     }
   }
 }

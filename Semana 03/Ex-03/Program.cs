@@ -9,5 +9,5 @@ contaBancaria.Depositar(500);
 System.Console.WriteLine("\n");
 contaBancaria.Sacar(200);
 System.Console.WriteLine("\n");
-contaBancaria.ToString();
+System.Console.WriteLine(contaBancaria.ToString());
 
