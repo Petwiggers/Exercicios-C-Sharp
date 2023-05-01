@@ -26,7 +26,7 @@ namespace Ex_06
     {
       if (altura > 0)
       {
-        _altura = altura;
+        Altura = altura;
       }
       else
       {
@@ -38,7 +38,7 @@ namespace Ex_06
     {
       if (largura > 0)
       {
-        _largura = largura;
+        Largura = largura;
       }
       else
       {
@@ -48,6 +48,7 @@ namespace Ex_06
     public void GetRetangulo()
     {
       System.Console.WriteLine($"O Retangulo possui: \n\nAltura: {_altura}\nLargura: {_largura}");
+      System.Console.WriteLine($"Area: {_largura * _altura}");
     }
   }
 }

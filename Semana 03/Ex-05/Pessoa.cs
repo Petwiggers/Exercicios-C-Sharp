@@ -25,7 +25,7 @@ namespace Ex_05
     {
       if (idade > 0)
       {
-        _idade = idade;
+        Idade = idade;
       }
     }
   }
