@@ -13,13 +13,13 @@ namespace Ex_06
     public double Largura
     {
       get { return _largura; }
-      private set { _largura = value; }
+      private set { _largura = value >= 0 ? value : 0; }
     }
 
     public double Altura
     {
       get { return _altura; }
-      private set { _altura = value; }
+      private set { _altura = value >= 0 ? value : 0; }
     }
 
     public void DefinirAltura(double altura)

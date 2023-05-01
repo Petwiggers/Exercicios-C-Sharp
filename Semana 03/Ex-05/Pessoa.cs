@@ -23,7 +23,7 @@ namespace Ex_05
 
     public void DefinirIdade(int idade)
     {
-      if (idade > 0)
+      if (idade >= 0)
       {
         Idade = idade;
       }

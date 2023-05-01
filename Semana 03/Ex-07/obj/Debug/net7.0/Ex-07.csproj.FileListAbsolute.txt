@@ -1,0 +1,15 @@
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.csproj.AssemblyReference.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.AssemblyInfoInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.AssemblyInfo.cs
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\bin\Debug\net7.0\Ex-07.exe
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\bin\Debug\net7.0\Ex-07.deps.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\bin\Debug\net7.0\Ex-07.runtimeconfig.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\bin\Debug\net7.0\Ex-07.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\bin\Debug\net7.0\Ex-07.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\refint\Ex-07.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\Ex-07.genruntimeconfig.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 03\Ex-07\obj\Debug\net7.0\ref\Ex-07.dll
