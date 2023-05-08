@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ProjetoBancoC_.Models
 {
@@ -11,7 +7,14 @@ namespace ProjetoBancoC_.Models
     public decimal Saldo { get; set; }
     public string Endereco { get; set; }
 
-    public void ResumoCliente()
+    public Cliente(string numeroConta, string endereco)
+    {
+      NumeroConta = numeroConta;
+      Endereco = endereco;
+      Saldo = 0;
+    }
+
+    public virtual void ResumoCliente()
     {
       System.Console.WriteLine($"Conta: {NumeroConta}\nSaldo: {Saldo}\nEndereço: {Endereco}");
     }
