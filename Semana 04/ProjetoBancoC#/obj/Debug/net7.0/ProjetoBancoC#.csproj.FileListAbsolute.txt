@@ -1,0 +1,15 @@
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\bin\Debug\net7.0\ProjetoBancoC#.exe
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\bin\Debug\net7.0\ProjetoBancoC#.deps.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\bin\Debug\net7.0\ProjetoBancoC#.runtimeconfig.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\bin\Debug\net7.0\ProjetoBancoC#.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\bin\Debug\net7.0\ProjetoBancoC#.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.csproj.AssemblyReference.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.AssemblyInfoInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.AssemblyInfo.cs
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\refint\ProjetoBancoC#.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ProjetoBancoC#.genruntimeconfig.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 04\ProjetoBancoC#\obj\Debug\net7.0\ref\ProjetoBancoC#.dll
