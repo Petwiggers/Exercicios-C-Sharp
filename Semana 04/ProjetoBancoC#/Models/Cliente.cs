@@ -14,6 +14,11 @@ namespace ProjetoBancoC_.Models
       Saldo = 0;
     }
 
+    public Cliente()
+    {
+      Saldo = 0;
+    }
+
     public virtual string ResumoCliente()
     {
       return $"Numero Conta: {NumeroConta} | End: {Endereco} | Saldo: {Saldo.ToString("C2")}";

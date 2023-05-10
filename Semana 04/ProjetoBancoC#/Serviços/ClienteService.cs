@@ -38,6 +38,27 @@ namespace ProjetoBancoC_.Serviços
       }
     }
 
+    public void CriarContaPessoaFisica()
+    {
+      var novoCliente = new PessoaFisica();
+      System.Console.WriteLine("Digite seu nome:");
+      novoCliente.Nome = Console.ReadLine();
+      System.Console.WriteLine("Digite sua data de nascimento:");
+      novoCliente.DataNascimento = DateTime.Parse(Console.ReadLine());
+      if (!novoCliente.EhMaior())
+      {
+        System.Console.WriteLine("Você deve ser maior de idade para poder criar uma conta !");
+        return;
+      }
+      System.Console.WriteLine("Digite seu Endereço:");
+      novoCliente.Endereco = Console.ReadLine();
+      System.Console.WriteLine("Digite seu Cpf:");
+      novoCliente.Cpf = Console.ReadLine();
+      System.Console.WriteLine("Digite seu número da Conta:");
+      novoCliente.NumeroConta = int.Parse(Console.ReadLine());
+      _listaClientes.Add(novoCliente);
+    }
+
     public Cliente BuscarClientePorNumeroDeConta(int numeroConta)
     {
       return _listaClientes.Find(cliente => cliente.NumeroConta == numeroConta);

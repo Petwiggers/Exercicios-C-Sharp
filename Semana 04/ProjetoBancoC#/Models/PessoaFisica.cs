@@ -13,6 +13,10 @@ namespace ProjetoBancoC_.Models
       Nome = nome;
       DataNascimento = dataNascimento;
     }
+    public PessoaFisica() : base()
+    {
+
+    }
 
     public bool EhMaior()
     {
