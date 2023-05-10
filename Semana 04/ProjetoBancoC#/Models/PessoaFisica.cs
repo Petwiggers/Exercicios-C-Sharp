@@ -7,7 +7,7 @@ namespace ProjetoBancoC_.Models
     public string Nome { get; set; }
     public DateTime DataNascimento { get; set; }
 
-    public PessoaFisica(string numeroConta, string endereco, string cpf, string nome, DateTime dataNascimento) : base(numeroConta, endereco)
+    public PessoaFisica(int numeroConta, string endereco, string cpf, string nome, DateTime dataNascimento) : base(numeroConta, endereco)
     {
       Cpf = cpf;
       Nome = nome;
@@ -25,9 +25,9 @@ namespace ProjetoBancoC_.Models
       return idade >= 18;
     }
 
-    public override void ResumoCliente()
+    public override string ResumoCliente()
     {
-      System.Console.WriteLine($"Conta: {NumeroConta}\nSaldo: {Saldo}\nEndereço: {Endereco}\nCpf: {Cpf}\nNome: {Nome}\nData Nascimento: {DataNascimento}");
+      return $"{base.ResumoCliente()} | Cpf: {Cpf} | Nome: {Nome} | DataNascimento: {DataNascimento.ToShortDateString()}";
     }
   }
 }

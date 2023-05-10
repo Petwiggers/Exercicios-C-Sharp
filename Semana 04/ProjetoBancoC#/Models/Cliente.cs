@@ -3,20 +3,20 @@ namespace ProjetoBancoC_.Models
 {
   public abstract class Cliente
   {
-    public string NumeroConta { get; set; }
+    public int NumeroConta { get; set; }
     public decimal Saldo { get; set; }
     public string Endereco { get; set; }
 
-    public Cliente(string numeroConta, string endereco)
+    public Cliente(int numeroConta, string endereco)
     {
       NumeroConta = numeroConta;
       Endereco = endereco;
       Saldo = 0;
     }
 
-    public virtual void ResumoCliente()
+    public virtual string ResumoCliente()
     {
-      System.Console.WriteLine($"Conta: {NumeroConta}\nSaldo: {Saldo}\nEndereço: {Endereco}");
+      return $"Numero Conta: {NumeroConta} | End: {Endereco} | Saldo: {Saldo.ToString("C2")}";
     }
 
   }
