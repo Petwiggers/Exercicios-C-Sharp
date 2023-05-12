@@ -25,12 +25,12 @@ namespace ProjetoBancoC_.Serviços
       if (tipoConta == "1")
       {
         System.Console.WriteLine("CriarContaPessoaFisica");
-        // CriarContaPessoaFisica()
+        CriarContaPessoaFisica();
       }
       else if (tipoConta == "2")
       {
         System.Console.WriteLine("CriarContaPessoaJuridica");
-        // CriarContaPessoaJuridica()
+        CriarContaPessoaJuridica();
       }
       else
       {
@@ -56,6 +56,23 @@ namespace ProjetoBancoC_.Serviços
       novoCliente.Cpf = Console.ReadLine();
       System.Console.WriteLine("Digite seu número da Conta:");
       novoCliente.NumeroConta = int.Parse(Console.ReadLine());
+      System.Console.WriteLine("Digite o Saldo da sua Conta:");
+      novoCliente.Saldo = decimal.Parse(Console.ReadLine());
+      _listaClientes.Add(novoCliente);
+    }
+    public void CriarContaPessoaJuridica()
+    {
+      var novoCliente = new PessoaJuridica();
+      System.Console.WriteLine("Digite sua Razão Social:");
+      novoCliente.RazaoSocial = Console.ReadLine();
+      System.Console.WriteLine("Digite seu Endereço:");
+      novoCliente.Endereco = Console.ReadLine();
+      System.Console.WriteLine("Digite seu Cnpj:");
+      novoCliente.Cnpj = Console.ReadLine();
+      System.Console.WriteLine("Digite seu número da Conta:");
+      novoCliente.NumeroConta = int.Parse(Console.ReadLine());
+      System.Console.WriteLine("Digite o Saldo da sua Conta:");
+      novoCliente.Saldo = decimal.Parse(Console.ReadLine());
       _listaClientes.Add(novoCliente);
     }
 
