@@ -973,6 +973,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ExSemana06/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ExSemana06.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExSemana06.dll": {}
+        }
       }
     }
   },
@@ -3946,10 +3956,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ExSemana06/1.0.0": {
+      "type": "project",
+      "path": "../ExSemana06/ExSemana06.csproj",
+      "msbuildProject": "../ExSemana06/ExSemana06.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ExSemana06 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.5.0",
@@ -3981,7 +3997,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Acer\\Pet\\DevinHouse\\Exercicios\\Módulo 02\\C#\\Semana 06\\ExSemana06\\ExSemana06.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Pet\\DevinHouse\\Exercicios\\Módulo 02\\C#\\Semana 06\\ExSemana06\\ExSemana06.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

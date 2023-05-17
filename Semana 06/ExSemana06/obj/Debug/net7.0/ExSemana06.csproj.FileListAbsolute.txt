@@ -1,0 +1,15 @@
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\bin\Debug\net7.0\ExSemana06.exe
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\bin\Debug\net7.0\ExSemana06.deps.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\bin\Debug\net7.0\ExSemana06.runtimeconfig.json
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\bin\Debug\net7.0\ExSemana06.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\bin\Debug\net7.0\ExSemana06.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.csproj.AssemblyReference.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.AssemblyInfoInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.AssemblyInfo.cs
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\refint\ExSemana06.dll
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.pdb
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ExSemana06.genruntimeconfig.cache
+C:\Users\Acer\Pet\DevinHouse\Exercicios\Módulo 02\C#\Semana 06\ExSemana06\obj\Debug\net7.0\ref\ExSemana06.dll
