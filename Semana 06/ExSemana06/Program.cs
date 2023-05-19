@@ -2,9 +2,16 @@
 
 
 List<int> valores = new List<int>() { 8, 4, 9, 6 };
-List<int> listaConvertida = InvertendoValores.Inverter(valores);
-
-foreach (var item in listaConvertida)
+List<int> valores2 = new List<int>() { 8, 4, 9, 6 };
+List<int> listaOrdenada = Ordenar.Inverter(valores);
+List<int> listaInvertida = InvertendoValores.InverterOrdem(valores2);
+foreach (var item in listaInvertida)
 {
-  System.Console.Write(item + ",");
+  System.Console.WriteLine(item);
+}
+System.Console.WriteLine();
+System.Console.WriteLine();
+foreach (var item in listaOrdenada)
+{
+  System.Console.WriteLine(item);
 }
